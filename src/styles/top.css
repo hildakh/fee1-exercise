@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+.main-content__top {
+  height: 630px;
+  width: 100%;
+  background-image: url("../assets/Wallpaper.png");
+  background-size: 960px 530px;
+  background-repeat: no-repeat;
+}
+
+.top__nav {
+  margin-bottom: 3rem;
+}
+
+.nav__surge-logo {
+  width: 12%;
+  height: auto;
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.top__drop-down-container {
+  color: #fff;
+  text-align: center;
+}
+
+.heading--bold {
+  font-weight: 700;
+}
+
+.drop-down-container__heading {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+
+
+
