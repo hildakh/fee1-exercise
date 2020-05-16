@@ -45,6 +45,7 @@
   color: #f07131;
   font-size: 15px;
   text-align: left;
+  cursor: pointer;
 }
 
 .prompt__text {
@@ -58,11 +59,12 @@
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
+  margin-right: 10px;
 }
 
 .drop-down-container__options {
   width: 350px;
-  height: 180px;
+  height: 200px;
   background-color: #fff;
   margin: 0 auto;
   border-radius: 12px;
@@ -70,10 +72,17 @@
   color: black;
   font-size: 15px;
   text-align: left;
+  padding-top: 10px;
+  display: none;
 }
 
 .options__option {
-  margin-left: 15px;
+  cursor: pointer;
+  padding-left: 15px;
   line-height: 45px;
+
 }
 
+.options__option:hover {
+  background-color: #febc2e;
+}

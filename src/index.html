@@ -26,13 +26,14 @@
             for small businesses
           </h1>
 
-          <div class="drop-down-container__prompt">
+          <div class="drop-down-container__prompt"
+          onclick="toggleDropdownOptions()"
+          >
             <span class="prompt__text">
-              Don't like pizza and bears, change here!
+                Don't like pizza and bears, change here!
             </span>
 
-            <span>
-              <i class="prompt__arrow"></i>
+            <span class="prompt__arrow">
             </span>
 
           </div>
@@ -52,7 +53,10 @@
             </div>
           </div>
 
-          <div class="drop-down-container__image"></div>
+          <div class="drop-down-container__image">
+            <img alt=""/>
+          </div>
+
         </div>
       </div>
 
@@ -106,5 +110,7 @@
 
       <footer class="footer-nav"></footer>
     </main>
+
+    <script src="./scripts/dropdown.js"></script>
   </body>
 </html>
