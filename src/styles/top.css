@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
 .main-content__top {
-  height: 625px;
+  height: 700px;
   width: 100%;
   background-image: url("../assets/Wallpaper.png");
-  background-size: 960px 530px;
+  background-size: 960px 600px;
   background-repeat: no-repeat;
+  object-fit: contain;
   font-family: "Raleway";
 }
 
@@ -26,7 +27,7 @@
 }
 
 .drop-down-container__heading {
-  font-size: 40px;
+  font-size: 37px;
   font-weight: 400;
   line-height: 80px;
 }
@@ -90,4 +91,18 @@
 
 .options__option:hover {
   background-color: #febc2e;
+}
+
+/* class name should be improved */
+.drop-down-container__image-box {
+}
+
+.image-box__image {
+  width: 600px;
+  height: 400px;
+  object-fit: contain;
+  display: block;
+  -webkit-filter: drop-shadow(0 0 2px #DCDCDC);
+  filter: drop-shadow(0 0 2px #DCDCDC);
+  margin: 0 auto;
 }

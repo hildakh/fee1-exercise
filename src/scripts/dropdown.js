@@ -18,10 +18,11 @@ const dropdownOption = document.querySelectorAll(".options__option");
 const promptText = document.querySelector(".prompt__text");
 
 const selectBusinessModelImage = (e) => {
-  // console.log(e.target.innerHTML, promptText.innerHTML)
-  promptText.innerHTML = e.target.innerHTML;
+  if((e.target.innerText == "Dog with shades") || (e.target.innerText == "Storm Trooper") || (e.target.innerText == "Pinneapple Vacation") || (e.target.innerText == "Donuts" )) {
+    promptText.innerText = e.target.innerText;
+  }
 }
 
 dropdownOption.forEach(option => {
-  addEventListener('click', selectBusinessModelImage);
+    addEventListener('click', selectBusinessModelImage);
 })
