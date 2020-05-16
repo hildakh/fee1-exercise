@@ -6,13 +6,24 @@ const dropDownImage = document.querySelector(".image-box__image");
 
 const dropdownOption = document.querySelectorAll(".options__option");
 
+
+const dropdownOptionsBox = document.querySelector(
+  ".drop-down-container__options"
+);
+const imageBox = document.querySelector(".drop-down-container__image-box");
+
+
+const hideOptionsShowImage = () => {
+  dropdownOptionsBox.classList.add("hidden");
+  imageBox.classList.remove("hidden");
+}
+
 const selectOption = (e) => {
-  // console.log(dropDownImage)
   if (e.target.innerText === "Pizza and bears") {
     promptText.innerText = "Pizza and bears";
     dropDownImage.src = "./assets/pizza-and-bears.png";
     setTimeout(() => {
-      toggleOptions();
+      hideOptionsShowImage();
     }, 200);
   }
 
@@ -20,7 +31,7 @@ const selectOption = (e) => {
     promptText.innerText = "Dog with shades";
     dropDownImage.src = "./assets/dog-with-shades.png";
     setTimeout(() => {
-      toggleOptions();
+      hideOptionsShowImage();
     }, 200);
   }
 
@@ -28,7 +39,7 @@ const selectOption = (e) => {
     promptText.innerText = "Storm Trooper";
     dropDownImage.src = "./assets/storm-trooper.png";
     setTimeout(() => {
-      toggleOptions();
+      hideOptionsShowImage();
     }, 200);
   }
 
@@ -36,7 +47,7 @@ const selectOption = (e) => {
     promptText.innerText = "Pineapple Vacation";
     dropDownImage.src = "./assets/pineapple-vacation.png";
     setTimeout(() => {
-      toggleOptions();
+      hideOptionsShowImage();
     }, 200);
   }
 

@@ -4,12 +4,11 @@ const dropdownOptionsBox = document.querySelector(
 
 const imageBox = document.querySelector(".drop-down-container__image-box");
 
-const dropdownPrompt = document.querySelector(".drop-down-container__prompt");
+const dropdownArrow = document.querySelector(".prompt__arrow-box");
 
-export function toggleOptions(e) {
-  // e.preventDefault();
+export function toggleOptions() {
   dropdownOptionsBox.classList.toggle("hidden");
   imageBox.classList.toggle("hidden");
 }
 
-dropdownPrompt.addEventListener("click", toggleOptions);
+dropdownArrow.addEventListener("click", toggleOptions);
