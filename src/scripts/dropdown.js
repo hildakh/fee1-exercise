@@ -15,16 +15,16 @@ dropdownPrompt.addEventListener('click', toggleDropdownOptions);
 const dropdownOption = document.querySelectorAll(".options__option");
 const promptText = document.querySelector(".prompt__text");
 
-const selectBusinessModelImage = (e) => {
-  if((e.target.innerText === "Dog with shades") || (e.target.innerText === "Storm Trooper") || (e.target.innerText === "Pinneapple Vacation") || (e.target.innerText === "Donuts" )) {
+const selectOptionFromDropdown = (e) => {
+  if((e.target.innerText === "Dog with shades") || (e.target.innerText === "Storm Trooper") || (e.target.innerText === "Pinneapple Vacation") || (e.target.innerText === "Donuts" ))
+  {
     promptText.innerText = e.target.innerText;
-
-    // toggleDropdownOptions();
+    toggleDropdownOptions();
   }
 }
 
-dropdownOption.forEach(option => {
-    addEventListener('click', selectBusinessModelImage);
+dropdownOption.forEach(() => {
+    addEventListener('click', selectOptionFromDropdown);
 })
 
 const dropdownImage = document.querySelector(".image-box__image");

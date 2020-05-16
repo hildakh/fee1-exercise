@@ -44,7 +44,6 @@
   color: #f07131;
   font-size: 15px;
   text-align: left;
-  cursor: pointer;
   display: flex;
 }
 
@@ -55,6 +54,7 @@
 
 .prompt__arrow-box {
   margin: auto 0;
+  cursor: pointer;
 }
 
 .arrow-box__arrow {
@@ -77,6 +77,9 @@
   font-size: 15px;
   text-align: left;
   padding-top: 10px;
+}
+
+.hidden {
   display: none;
 }
 
