@@ -19,7 +19,15 @@ const dropdownOption = document.querySelectorAll(".options__option");
 const promptText = document.querySelector(".prompt__text");
 
 const selectOptionFromDropdown = (e) => {
-  console.log(dropDownImage)
+  // console.log(dropDownImage)
+  if(e.target.innerText === "Pizza and bears") {
+    promptText.innerText = "Pizza and bears";
+    dropDownImage.src = "./assets/pizza-and-bears.png";
+    setTimeout( () => {
+      toggleDropdownOptions();
+    }, 200)
+  }
+
   if(e.target.innerText === "Dog with shades") {
     promptText.innerText = "Dog with shades";
     dropDownImage.src = "./assets/dog-with-shades.png";

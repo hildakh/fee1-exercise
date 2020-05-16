@@ -50,6 +50,8 @@
 .prompt__text {
   margin-left: 15px;
   min-width: 310px;
+  /* to disable image and options toggle  */
+  pointer-events: none;
 }
 
 .prompt__arrow-box {
@@ -68,9 +70,9 @@
 
 .drop-down-container__options {
   width: 350px;
-  height: 200px;
+  height: 245px;
   background-color: #fff;
-  margin: 0 auto;
+  margin: 15px auto 0;
   border-radius: 12px;
   margin-top: 20px;
   color: black;
@@ -95,16 +97,17 @@
 }
 
 /* class name should be improved */
-/* .drop-down-container__image-box {
-} */
+.drop-down-container__image-box {
+  margin-top: 20px;
+}
 
 .image-box__image {
   width: 600px;
   height: 400px;
   object-fit: contain;
   display: block;
-  -webkit-filter: drop-shadow(0 0 2px #DCDCDC);
-  filter: drop-shadow(0 0 2px #DCDCDC);
+  -webkit-filter: drop-shadow(0 1px 1px #DCDCDC);
+  filter: drop-shadow(0 1px 1px #DCDCDC);
   margin: 0 auto;
 }
 

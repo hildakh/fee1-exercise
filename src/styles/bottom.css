@@ -29,6 +29,6 @@
 .right-mockup__img {
   width: 215px;
   height: 430px;
-  -webkit-filter: drop-shadow(0 0 2px #DCDCDC);
-  filter: drop-shadow(0 0 2px #DCDCDC);
+  -webkit-filter: drop-shadow(0 0 5px #DCDCDC);
+  filter: drop-shadow(0 0 5px #DCDCDC);
 }
