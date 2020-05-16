@@ -24,7 +24,7 @@ const selectOption = (e) => {
     dropDownImage.src = "./assets/pizza-and-bears.png";
     setTimeout(() => {
       hideOptionsShowImage();
-    }, 200);
+    }, 20);
   }
 
   if (e.target.innerText === "Dog with shades") {
@@ -32,7 +32,7 @@ const selectOption = (e) => {
     dropDownImage.src = "./assets/dog-with-shades.png";
     setTimeout(() => {
       hideOptionsShowImage();
-    }, 200);
+    }, 20);
   }
 
   if (e.target.innerText === "Storm Trooper") {
@@ -40,7 +40,7 @@ const selectOption = (e) => {
     dropDownImage.src = "./assets/storm-trooper.png";
     setTimeout(() => {
       hideOptionsShowImage();
-    }, 200);
+    }, 20);
   }
 
   if (e.target.innerText === "Pineapple Vacation") {
@@ -48,7 +48,7 @@ const selectOption = (e) => {
     dropDownImage.src = "./assets/pineapple-vacation.png";
     setTimeout(() => {
       hideOptionsShowImage();
-    }, 200);
+    }, 20);
   }
 
   if (e.target.innerText === "Donuts") {
@@ -56,7 +56,7 @@ const selectOption = (e) => {
     dropDownImage.src = "./assets/donuts.png";
     setTimeout(() => {
       toggleOptions();
-    }, 200);
+    }, 20);
   }
 };
 
