@@ -13,7 +13,7 @@ const toggleDropdownOptions = () => {
     dropDownImage.style.display ="block";
   } else {
     dropdownOptionsBox.style.display = "block";
-    dropDownImage.style.display = "none"
+    dropDownImage.style.display = "none";
   }
 };
 

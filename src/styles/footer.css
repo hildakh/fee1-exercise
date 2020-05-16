@@ -1,0 +1,12 @@
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: #febc2e;
+
+}
+
+.footer__logo {
+  width: 12%;
+  height: auto;
+  margin: 18px 30px;
+}

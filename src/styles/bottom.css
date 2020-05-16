@@ -1,0 +1,34 @@
+.main-content__bottom {
+  display: flex;
+  width: 650px;
+  height: 450px;
+  margin: 0 auto 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom__left-container {
+  width: 340px;
+  height: 358px;
+}
+
+.left-container__heading {
+  font-size: 34px;
+  color: #febc2e;
+  margin-bottom: 15px;
+}
+
+.left-container__text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bottom__right-mockup {
+}
+
+.right-mockup__img {
+  width: 215px;
+  height: 430px;
+  -webkit-filter: drop-shadow(0 0 2px #DCDCDC);
+  filter: drop-shadow(0 0 2px #DCDCDC);
+}

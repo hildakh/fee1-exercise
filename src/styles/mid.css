@@ -1,0 +1,41 @@
+.main-content__mid {
+  text-align: center;
+  width: 700px;
+  margin: 60px auto;
+}
+
+.mid__heading {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.mid__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__card {
+  text-align: left;
+  width: 175px;
+  height: 180px;
+}
+
+.card__image {
+  width: 58px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.card__heading {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  margin: 5px auto;
+}
+
+.card__text {
+  font-size: 14px;
+  letter-spacing: 0.1;
+  line-height: 20px;
+}

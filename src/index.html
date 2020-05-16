@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="./styles/main.css" type="text/css" />
 
     <link rel="stylesheet" href="./styles/top.css" type="text/css" />
+
+    <link rel="stylesheet" href="./styles/mid.css" type="text/css" />
+
+    <link rel="stylesheet" href="./styles/bottom.css" type="text/css" />
+
+    <link rel="stylesheet" href="./styles/footer.css" type="text/css" />
   </head>
   <body>
     <main class="main-content">
@@ -60,17 +66,17 @@
 
             </div>
 
-
         </div>
       </div>
 
       <div class="main-content__mid">
-        <h3 class="mid__h3">Surge your payments</h3>
+        <h1 class="mid__heading">Surge your payments</h1>
 
         <div class="mid__cards">
+
           <div class="cards__card">
-            <img class="card__image" alt="Notification Icon" />
-            <h5 class="card__h">Get Notifications</h5>
+            <img class="card__image" alt="Notification Icon" src="./assets/notification-icon.svg"/>
+            <h5 class="card__heading">Get Notifications</h5>
             <p class="card__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum turpis eros.
@@ -78,8 +84,8 @@
           </div>
 
           <div class="cards__card">
-            <img class="card__image" alt="Calendar Icon" />
-            <h5 class="card__h">Schedule Payments</h5>
+            <img class="card__image" alt="Calendar Icon" src="./assets/calendar-icon.svg"/>
+            <h5 class="card__heading">Schedule Payments</h5>
             <p class="card__text">
               Suspendisse quis sapien non felis ullamcorper suscipit. Praesent
               dictum tristique sapien.
@@ -87,8 +93,8 @@
           </div>
 
           <div class="cards__card">
-            <img class="card__image" alt="Receipt Icon" />
-            <h5 class="card__h">Paperless Receipts</h5>
+            <img class="card__image" alt="Receipt Icon" src="./assets/reciepticon.svg"/>
+            <h5 class="card__heading">Paperless Receipts</h5>
             <p class="card__text">
               Suspendisse tortor lectus, venenatis a imperdiet id, aliquam eget
               nunc. Suspendisse sit amet arcu rhoncus.
@@ -98,9 +104,10 @@
       </div>
 
       <div class="main-content__bottom">
-        <div class="botton__left-info">
-          <h3 class="left-info__h">Everyone loves a beautiful interface</h3>
-          <p class="left-info__text">
+
+        <div class="bottom__left-container">
+          <h1 class="left-container__heading">Everyone loves <br> a beautiful interface</h1>
+          <p class="left-container__text">
             But the backend is what truely drives this seamless application.
             Making your life as a small business owner easier than ever to track
             your spending.
@@ -108,13 +115,16 @@
         </div>
 
         <div class="bottom__right-mockup">
-          <img class="right-mockup__img" />
+          <img class="right-mockup__img" alt="mobile mockup" src="./assets/phone-mockup.png"/>
         </div>
       </div>
 
-      <footer class="footer-nav"></footer>
+      <footer class="footer">
+        <img class="footer__logo" alt="surge logo" src="./assets/surge-logo.png"/>
+      </footer>
     </main>
 
     <script src="./scripts/dropdown.js"></script>
+
   </body>
 </html>
